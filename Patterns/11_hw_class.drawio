@@ -1,0 +1,47 @@
+
+<mxfile host="app.diagrams.net">
+  <diagram name="UML Diagram">
+    <mxGraphModel dx="1638" dy="868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Book Class -->
+        <mxCell id="2" value="Book" style="swimlane" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Title: string&#xa;Author: string&#xa;ISBN: string&#xa;IsAvailable: bool" vertex="1" parent="2" />
+        <mxGeometry x="0" y="30" width="160" height="60" as="geometry" relative="1" />
+        
+        <!-- Reader Class -->
+        <mxCell id="4" value="Reader" style="swimlane" vertex="1" parent="1">
+          <mxGeometry x="220" y="20" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Name: string&#xa;RentedBooks: List&lt;Book&gt;" vertex="1" parent="4" />
+        <mxGeometry x="0" y="30" width="160" height="60" as="geometry" relative="1" />
+        
+        <!-- Librarian Class -->
+        <mxCell id="6" value="Librarian" style="swimlane" vertex="1" parent="1">
+          <mxGeometry x="20" y="180" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Name: string" vertex="1" parent="6" />
+        <mxGeometry x="0" y="30" width="160" height="30" as="geometry" relative="1" />
+        
+        <!-- Library Class -->
+        <mxCell id="8" value="Library" style="swimlane" vertex="1" parent="1">
+          <mxGeometry x="220" y="180" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Books: List&lt;Book&gt;" vertex="1" parent="8" />
+        <mxGeometry x="0" y="30" width="160" height="30" as="geometry" relative="1" />
+        
+        <!-- Associations -->
+        <mxCell id="10" edge="1" parent="1" source="2" target="8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" source="4" target="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
