@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.0">
+  <diagram name="Страница — 1" id="VmhJEuToepworZe1aQ9G">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="87" y="8" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="New" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="8" y="72" width="172" height="711" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="3">
+          <mxGeometry x="87" y="46" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Open" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="3">
+          <mxGeometry x="67" y="135" width="53" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="InProgress" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="3">
+          <mxGeometry x="50" y="268" width="89" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Resolved" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="3">
+          <mxGeometry x="54" y="401" width="79" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Closed" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="3">
+          <mxGeometry x="62" y="534" width="63" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="ellipse;shape=endState;fillColor=strokeColor;" vertex="1" parent="3">
+          <mxGeometry x="87" y="667" width="14" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="curved=1;startArrow=none;;exitX=0.49;exitY=0.96;entryX=0.51;entryY=-0.01;" edge="1" parent="3" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="start work" style="curved=1;startArrow=none;;exitX=0.51;exitY=0.99;entryX=0.49;entryY=-0.01;" edge="1" parent="3" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="resolve request" style="curved=1;startArrow=none;;exitX=0.49;exitY=0.99;entryX=0.5;entryY=-0.01;" edge="1" parent="3" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="close request" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;" edge="1" parent="3" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="start new request" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.49;entryY=-0.04;" edge="1" parent="3" source="8" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="" style="curved=1;startArrow=none;;exitX=0.49;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
