@@ -1,94 +1,86 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.0">
   <diagram name="Страница — 1" id="tSEfzn-LcNZpLbd2Grv_">
-    <mxGraphModel>
+    <mxGraphModel dx="2607" dy="1404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
-          <mxGeometry x="178" y="8" width="14" height="14" as="geometry" />
+        <mxCell id="2" value="" style="ellipse;fillColor=strokeColor;" parent="1" vertex="1">
+          <mxGeometry x="790" y="30" width="14" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Начало" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="8" y="72" width="267" height="377" as="geometry" />
+        <mxCell id="4" value="Idle" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;" parent="1" vertex="1">
+          <mxGeometry x="295" y="180" width="1005" height="801" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Подготовка" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="295" y="184" width="1014" height="797" as="geometry" />
-        </mxCell>
-        <mxCell id="5" value="Добавление" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+        <mxCell id="5" value="Добавление" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="153" y="745" width="107" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Подтверждение" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+        <mxCell id="6" value="MoneyReceived" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="636" y="896" width="134" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Готово" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;" vertex="1" parent="1">
+        <mxCell id="7" value="MoneyReceived" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;" parent="1" vertex="1">
           <mxGeometry x="495" y="720" width="436" height="236" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="Выполнение" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+        <mxCell id="8" value="Выполнение" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="649" y="1054" width="107" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="Выдача" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="9" value="Выдача" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="586" y="1162" width="233" height="466" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="9">
+        <mxCell id="10" value="" style="ellipse;fillColor=strokeColor;" parent="9" vertex="1">
           <mxGeometry x="117" y="46" width="14" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="Напиток" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="9">
+        <mxCell id="11" value="Автомат" style="rounded=1;arcSize=40;strokeWidth=2" parent="9" vertex="1">
           <mxGeometry x="86" y="135" width="77" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="12" value="Стакан" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="9">
+        <mxCell id="12" value="Received" style="rounded=1;arcSize=40;strokeWidth=2" parent="9" vertex="1">
           <mxGeometry x="91" y="268" width="66" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="13" value="[Спасибо]" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="9">
+        <mxCell id="13" value="[Спасибо]" style="rounded=1;arcSize=40;strokeWidth=2" parent="9" vertex="1">
           <mxGeometry x="80" y="401" width="89" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="14" value="" style="curved=1;startArrow=none;;exitX=0.52;exitY=0.96;entryX=0.5;entryY=-0.01;" edge="1" parent="9" source="10" target="11">
+        <mxCell id="14" value="" style="curved=1;startArrow=none;;exitX=0.52;exitY=0.96;entryX=0.5;entryY=-0.01;" parent="9" source="10" target="11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="15" value="Выдача напитка" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.51;entryY=-0.01;" edge="1" parent="9" source="11" target="12">
+        <mxCell id="15" value="Выдача билета" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.51;entryY=-0.01;" parent="9" source="11" target="12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Клиент получает билет" style="curved=1;startArrow=none;;exitX=0.51;exitY=0.99;entryX=0.5;entryY=-0.01;" parent="9" source="12" target="13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="16" value="Клиент получает напиток" style="curved=1;startArrow=none;;exitX=0.51;exitY=0.99;entryX=0.5;entryY=-0.01;" edge="1" parent="9" source="12" target="13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="17" value="" style="ellipse;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+        <mxCell id="17" value="" style="ellipse;shape=endState;fillColor=strokeColor;" parent="1" vertex="1">
           <mxGeometry x="696" y="1701" width="14" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="18" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
-          <mxGeometry x="178" y="97" width="14" height="14" as="geometry" />
-        </mxCell>
-        <mxCell id="19" value="Клиент" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;" vertex="1" parent="1">
+        <mxCell id="19" value="Клиент" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;" parent="1" vertex="1">
           <mxGeometry x="345" y="209" width="794" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="20" value="Ассортимент" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="80" y="389" width="113" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="21" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+        <mxCell id="21" value="" style="ellipse;fillColor=strokeColor;" parent="1" vertex="1">
           <mxGeometry x="468" y="234" width="14" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="22" value="Ингредиенты" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;" vertex="1" parent="1">
+        <mxCell id="22" value="WaitingForMoney" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;" parent="1" vertex="1">
           <mxGeometry x="951" y="364" width="338" height="442" as="geometry" />
         </mxCell>
-        <mxCell id="23" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+        <mxCell id="23" value="" style="ellipse;fillColor=strokeColor;" parent="1" vertex="1">
           <mxGeometry x="1112" y="399" width="14" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="24" value="Сахар" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+        <mxCell id="24" value="Пользователь" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="1089" y="501" width="59" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="25" value="Молоко" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+        <mxCell id="25" value="Ассортимент" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="1156" y="612" width="72" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="26" value="Кофе" style="rounded=1;arcSize=40;strokeWidth=2" vertex="1" parent="1">
+        <mxCell id="26" value="MoneyReceived" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="1091" y="745" width="56" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="27" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
+        <mxCell id="27" value="" style="ellipse;fillColor=strokeColor;" parent="1" vertex="1">
           <mxGeometry x="696" y="756" width="14" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="28" value="Клиент подтверждает заказ" style="curved=1;startArrow=none;;exitX=1;exitY=0.67;entryX=0.28;entryY=-0.01;" edge="1" parent="1" source="5" target="6">
+        <mxCell id="28" value="WaitingForMoney" style="curved=1;startArrow=none;;exitX=1;exitY=0.67;entryX=0.28;entryY=-0.01;" parent="1" source="5" target="6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="599" y="805" />
@@ -96,84 +88,70 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="29" value="Заказ выполняется" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="6" target="8">
+        <mxCell id="29" value="TicketDispensed" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;" parent="1" source="6" target="8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="30" value="" style="curved=1;startArrow=none;;exitX=0.49;exitY=1.01;entryX=0.51;entryY=0.01;" edge="1" parent="1" source="23" target="24">
+        <mxCell id="30" value="" style="curved=1;startArrow=none;;exitX=0.49;exitY=1.01;entryX=0.51;entryY=0.01;" parent="1" source="23" target="24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="31" value="Добавление сахара" style="curved=1;startArrow=none;;exitX=0.89;exitY=1.01;entryX=0.5;entryY=0.01;" edge="1" parent="1" source="24" target="25">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="31" value="Выбирает билет" style="curved=1;startArrow=none;;exitX=0.89;exitY=1.01;entryX=0.5;entryY=0.01;" parent="1" source="24" target="25" edge="1">
+          <mxGeometry x="-0.0076" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1192" y="576" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="32" value="Добавление сахара" style="curved=1;startArrow=none;;exitX=0.12;exitY=1.01;entryX=0;entryY=0.04;" edge="1" parent="1" source="24" target="26">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1046" y="576" />
-              <mxPoint x="1046" y="720" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="33" value="Добавление молока" style="curved=1;startArrow=none;;exitX=0.5;exitY=1.01;entryX=1;entryY=0.04;" edge="1" parent="1" source="25" target="26">
+        <mxCell id="33" value="пользователь вносит достаточную сумму." style="curved=1;startArrow=none;;exitX=0.5;exitY=1.01;entryX=1;entryY=0.04;" parent="1" source="25" target="26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1192" y="720" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="34" value="" style="curved=1;startArrow=none;;exitX=0.48;exitY=0.98;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="27" target="6">
+        <mxCell id="34" value="" style="curved=1;startArrow=none;;exitX=0.48;exitY=0.98;entryX=0.5;entryY=-0.01;" parent="1" source="27" target="6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="35" value="" style="curved=1;startArrow=none;;" edge="1" parent="1" source="2" target="3">
+        <mxCell id="35" value="" style="curved=1;startArrow=none;;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="174.90020366598787" y="72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36" value="" style="curved=1;startArrow=none;;" parent="1" target="4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="275" y="325.58251324753996" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="37" value="Клиент добавляет билет" style="curved=1;startArrow=none;;" parent="1" source="4" target="5" edge="1">
+          <mxGeometry x="-0.0154" relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="38" value="TransactionCanceled" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;" parent="1" source="8" target="9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="36" value="Клиент выбирает напиток" style="curved=1;startArrow=none;;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="39" value="Заказ завершен" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.48;entryY=-0.01;" parent="1" source="9" target="17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="37" value="Клиент добавляет ингредиенты" style="curved=1;startArrow=none;;" edge="1" parent="1" source="4" target="5">
+        <mxCell id="42" value="" style="curved=1;startArrow=none;;" parent="1" source="21" target="22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="38" value="Напиток выдается" style="curved=1;startArrow=none;;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;" edge="1" parent="1" source="8" target="9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="39" value="Заказ завершен" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.48;entryY=-0.01;" edge="1" parent="1" source="9" target="17">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="40" value="" style="curved=1;startArrow=none;;" edge="1" parent="1" source="18" target="19">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="41" value="Проверка наличия напитков" style="curved=1;startArrow=none;;" edge="1" parent="1" source="19" target="20">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="42" value="" style="curved=1;startArrow=none;;" edge="1" parent="1" source="21" target="22">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="43" value="Ингредиенты добавлены" style="curved=1;startArrow=none;;" edge="1" parent="1" source="26" target="7">
+        <mxCell id="43" value="Билет добавлен" style="curved=1;startArrow=none;;" parent="1" source="26" target="7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
