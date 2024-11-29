@@ -1,12 +1,9 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.0">
   <diagram name="Страница — 1" id="tSEfzn-LcNZpLbd2Grv_">
-    <mxGraphModel dx="2607" dy="1404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2390" dy="1512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="" style="ellipse;fillColor=strokeColor;" parent="1" vertex="1">
-          <mxGeometry x="790" y="30" width="14" height="14" as="geometry" />
-        </mxCell>
         <mxCell id="4" value="Idle" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;" parent="1" vertex="1">
           <mxGeometry x="295" y="180" width="1005" height="801" as="geometry" />
         </mxCell>
@@ -14,16 +11,16 @@
           <mxGeometry x="153" y="745" width="107" height="35" as="geometry" />
         </mxCell>
         <mxCell id="6" value="MoneyReceived" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="636" y="896" width="134" height="35" as="geometry" />
+          <mxGeometry x="621" y="820" width="134" height="35" as="geometry" />
         </mxCell>
         <mxCell id="7" value="MoneyReceived" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;" parent="1" vertex="1">
           <mxGeometry x="495" y="720" width="436" height="236" as="geometry" />
         </mxCell>
         <mxCell id="8" value="Выполнение" style="rounded=1;arcSize=40;strokeWidth=2" parent="1" vertex="1">
-          <mxGeometry x="649" y="1054" width="107" height="35" as="geometry" />
+          <mxGeometry x="634" y="978" width="107" height="35" as="geometry" />
         </mxCell>
         <mxCell id="9" value="Выдача" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="586" y="1162" width="233" height="466" as="geometry" />
+          <mxGeometry x="571" y="1086" width="233" height="466" as="geometry" />
         </mxCell>
         <mxCell id="10" value="" style="ellipse;fillColor=strokeColor;" parent="9" vertex="1">
           <mxGeometry x="117" y="46" width="14" height="14" as="geometry" />
@@ -54,16 +51,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="17" value="" style="ellipse;shape=endState;fillColor=strokeColor;" parent="1" vertex="1">
-          <mxGeometry x="696" y="1701" width="14" height="14" as="geometry" />
+          <mxGeometry x="681" y="1625" width="14" height="14" as="geometry" />
         </mxCell>
         <mxCell id="19" value="Клиент" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;" parent="1" vertex="1">
-          <mxGeometry x="345" y="209" width="794" height="64" as="geometry" />
+          <mxGeometry x="341" y="315" width="794" height="64" as="geometry" />
         </mxCell>
         <mxCell id="21" value="" style="ellipse;fillColor=strokeColor;" parent="1" vertex="1">
-          <mxGeometry x="468" y="234" width="14" height="14" as="geometry" />
+          <mxGeometry x="464" y="340" width="14" height="14" as="geometry" />
         </mxCell>
         <mxCell id="22" value="WaitingForMoney" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;startSize=25;container=0;collapsible=0;rounded=1;arcSize=14;dropTarget=0;" parent="1" vertex="1">
-          <mxGeometry x="951" y="364" width="338" height="442" as="geometry" />
+          <mxGeometry x="940" y="380" width="338" height="442" as="geometry" />
         </mxCell>
         <mxCell id="23" value="" style="ellipse;fillColor=strokeColor;" parent="1" vertex="1">
           <mxGeometry x="1112" y="399" width="14" height="14" as="geometry" />
@@ -118,16 +115,11 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="35" value="" style="curved=1;startArrow=none;;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="4" edge="1">
+        <mxCell id="35" value="" style="curved=1;startArrow=none;;entryX=0.526;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="2" target="19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint x="174.90020366598787" y="72" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="36" value="" style="curved=1;startArrow=none;;" parent="1" target="4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="275" y="325.58251324753996" as="sourcePoint" />
+            <mxPoint x="793" y="150" as="sourcePoint" />
+            <mxPoint x="793.5" y="286" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="37" value="Клиент добавляет билет" style="curved=1;startArrow=none;;" parent="1" source="4" target="5" edge="1">
@@ -155,6 +147,16 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0wlygvvGAEucmAyHwg4U-44" value="" style="curved=1;startArrow=none;;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="793" y="150" as="sourcePoint" />
+            <mxPoint x="793.5" y="286" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2" value="" style="ellipse;fillColor=strokeColor;" parent="1" vertex="1">
+          <mxGeometry x="790" y="140" width="14" height="14" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
