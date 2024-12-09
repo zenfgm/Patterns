@@ -71,6 +71,12 @@
             <mxPoint x="210" y="135" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="FudyNfFs-hM84XBr8Av8-8" style="edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="check_stock" target="online_payment">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="145" as="sourcePoint" />
+            <mxPoint x="220" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
