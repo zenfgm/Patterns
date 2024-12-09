@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0" version="24.8.6">
+  <diagram name="Процесс найма сотрудников" id="1">
+    <mxGraphModel dx="756" dy="410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Start -->
+        <mxCell id="start" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#A4A4A4;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="create_request" value="Руководитель создает заявку" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="50" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="check_request" value="HR проверяет заявку" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="approve_request" value="Заявка утверждена" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="200" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="request_revision" value="Уведомление о доработке" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="publish_vacancy" value="Публикация вакансии" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="280" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="submit_application" value="Кандидаты подают заявки" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="280" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="check_application" value="HR проверяет анкеты" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="350" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="reject_application" value="Анкета отклонена" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="350" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="invite_interview" value="Приглашение на собеседование" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="430" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hr_interview" value="HR проводит интервью" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="510" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tech_interview" value="Руководитель проводит техническое собеседование" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="590" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="offer" value="Оффер предложен" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="670" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="reject_candidate" value="Уведомление об отказе" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="670" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="accept_offer" value="Кандидат подтверждает оффер" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="750" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="add_employee" value="Добавление в базу данных" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="830" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="notify_it" value="Уведомление IT отдела" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="910" width="200" height="40" as="geometry" />
+        </mxCell>
+        <!-- End -->
+        <mxCell id="end" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#A4A4A4;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1000" width="40" height="40" as="geometry" />
+        </mxCell>
+        <!-- Edges -->
+        <mxCell id="edge1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="start" target="create_request">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
